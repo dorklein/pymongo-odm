@@ -9,7 +9,7 @@ setup(
     author='Dor Klein',
     author_email='dorklein2@gmail.com',
     url='https://github.com/moon-investment-technologies/pymongo-odm',
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+    download_url='https://github.com/dorklein/pymongo-odm/archive/v0.1-alpha.tar.gz',
     keywords=['mongodb', 'mongo', 'pymongo', 'odm', 'pymongo odm'],  # Keywords that define your package best
     install_requires=[
         'pymongo',

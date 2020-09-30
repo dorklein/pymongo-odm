@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name='pymongo_odm',
     packages=['pymongo_odm'],
-    version='0.1-alpha',
+    version='0.1-alpha2',
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='A basic ODM wrapper for pymongo',
     author='Dor Klein',
     author_email='dorklein2@gmail.com',
-    url='https://github.com/moon-investment-technologies/pymongo-odm',
-    download_url='https://github.com/dorklein/pymongo-odm/archive/v0.1-alpha.tar.gz',
+    url='https://github.com/dorklein/pymongo-odm',
+    download_url='https://github.com/dorklein/pymongo-odm/archive/v0.1-alpha2.tar.gz',
     keywords=['mongodb', 'mongo', 'pymongo', 'odm', 'pymongo odm'],  # Keywords that define your package best
     install_requires=[
         'pymongo',

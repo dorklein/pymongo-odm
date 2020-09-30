@@ -11,10 +11,10 @@ from pymongo import MongoClient, IndexModel
 from pymongo.collection import Collection
 from pymongo.database import Database
 
-from .helpers import strict, Map, now
-from .helpers.type_hints import DocumentId, Datetime
-from .document_meta import DocumentMeta
-from .client import get_client
+from pymongo_odm.helpers import strict, Map, now
+from pymongo_odm.helpers.type_hints import DocumentId, Datetime
+from pymongo_odm.document_meta import DocumentMeta
+from pymongo_odm.client import get_client
 
 
 @strict

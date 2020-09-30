@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='pymongo_odm',
     packages=['pymongo_odm'],
-    version='0.1',
+    version='0.1-alpha',
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='A basic ODM wrapper for pymongo',
     author='Dor Klein',
